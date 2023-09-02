@@ -1,18 +1,18 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project is a Database of Students which contain 3 column (Student id, name and Course). A user can perform 4 operations on it :-
+   1. Insert --> insert new row in table
+   2. Read --> read all data from table 
+   3. Update --> update value of column 
+   4. Delete --> Delete row from table.
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+In this project i learnt following things:-
+  1. 5 stage of jdbc connection
+        1.Loading the JDBC driver.
+        2.Creating a connection to the database.
+        3.Creating a statement or prepared statement.
+        4.Executing SQL queries or commands.
+        5.Handling the results and closing the resources.
+  2. how to perform CRUD application
+  3. Difference b/w preparedStatement and statement.
+  4. Practical knowledge of SQL.

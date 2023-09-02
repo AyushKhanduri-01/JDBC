@@ -46,6 +46,8 @@ public class db {
                 data.deleteData(id);
             }
             if(opt == 5){
+                DbOperation data=new DbOperation();
+                data.closeConnection();
                 return;
             }
 

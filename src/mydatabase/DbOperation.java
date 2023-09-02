@@ -74,4 +74,9 @@ public class DbOperation {
         stm.execute(query);
         System.out.println("Data deleted Seccessfully.");
     }
+
+    public void closeConnection() throws SQLException {
+        conn.close();
+        System.out.println("Connection closed");
+    }
 }
